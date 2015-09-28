@@ -1,0 +1,291 @@
+@charset="utf-8";
+
+h1,h2,h3,h4,h5,p,dl,dt,dd,ul,ol,li,form{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+div{
+	display: block;
+}
+h3{
+	margin-bottom:15px;
+}
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+#container {
+    height: auto;
+    width: 950px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    font-size: 72%;
+    color: #333333;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #cccccc;
+    border-left-color: #cccccc;
+}
+#navi{
+	margin: 0px;
+	padding: 0px;
+}
+#navi li{
+	float: left;
+}
+#main{
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+}
+#index-left {
+	float: left;
+	height: auto;
+	width: 670px;
+	margin-top: 20px;
+}
+#index-right {
+	float: right;
+	height: auto;
+	width: 280px;
+	padding-top: 20px;
+}
+#index-right h3 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+.pankuzu{
+	float:right;
+	height: auto;
+	padding: 50px;
+	width: 720px;
+	padding-right: 10px;
+}
+.pankuzu li{
+	padding-right: 15px;
+	padding-left: 15px;
+	float:right;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #666666;
+}
+.pan-home{
+	background-image: url(http://www.racjin.co.jp/common/img/icon-home.gif);
+	background-repeat: no-repeat;
+}
+.MB-10{
+	margin-bottom: 10px;
+}
+.text-right{
+	text-align: right;
+}
+#Home{
+	text-indent: -9999px;
+    display: block;
+    width: 95px;
+    height: 60px;
+    text-decoration: none;
+    background-image: url(http://www.racjin.co.jp/common/img/navi_01.jpg);
+    background-repeat: no-repeat;
+}
+#profile{
+	text-indent: -9999px;
+    display: block;
+    width: 136px;
+    height: 60px;
+    text-decoration: none;
+    background-image: url(http://www.racjin.co.jp/common/img/navi_02.jpg);
+    background-repeat: no-repeat;
+}
+#game{
+	text-indent: -9999px;
+    display: block;
+    width: 145px;
+    height: 60px;
+    text-decoration: none;
+    background-image: url(http://www.racjin.co.jp/common/img/navi_03.jpg);
+    background-repeat: no-repeat;
+
+}
+#smart{
+	text-indent: -9999px;
+    display: block;
+    width: 145px;
+    height: 60px;
+    text-decoration: none;
+    background-image: url(http://www.racjin.co.jp/common/img/navi_04.jpg);
+    background-repeat: no-repeat;
+}
+#pachinko{
+	text-indent: -9999px;
+    display: block;
+    width: 156px;
+    height: 60px;
+    text-decoration: none;
+    background-image: url(http://www.racjin.co.jp/common/img/navi_05.jpg);
+    background-repeat: no-repeat;
+}
+#RADIX{
+	text-indent: -9999px;
+    display: block;
+    width: 145px;
+    height: 60px;
+    text-decoration: none;
+    background-image: url(http://www.racjin.co.jp/common/img/navi_06.jpg);
+    background-repeat: no-repeat;
+}
+#Adoption{
+	text-indent: -9999px;
+    display: block;
+    width: 128px;
+    height: 60px;
+    text-decoration: none;
+    background-image: url(http://www.racjin.co.jp/common/img/navi_07.jpg);
+    background-repeat: no-repeat;
+}
+.new-box {
+	height: auto;
+	width: 240px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background-color: #FFF;
+	padding: 10px;
+}
+.newbox-left {
+	height: auto;
+	width: 90px;
+	float: left;
+}
+.newbox-right {
+	height: auto;
+	width: 140px;
+	float: right;
+}
+
+.line-dot {
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #333;
+	padding-bottom: 5px;
+	margin-top: 5px;
+}
+.icon-red {
+	background-image: url(http://www.racjin.co.jp/common/img/icon-yajirushi_01.jpg);
+	background-repeat: no-repeat;
+	background-position: 50px 1px;
+	padding-left: 15px;
+	padding-top: 1px;
+	text-align: right;
+}
+
+.icon-diary {
+	background-image: url(http://www.racjin.co.jp/common/img/icon-yajirushi_01.jpg);
+	background-repeat: no-repeat;
+	background-position: 350px 3px;
+	padding-top: 1px;
+	text-align: right;
+}
+.icon-new {
+	background-image: url(http://www.racjin.co.jp/common/img/icon-new.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+#smart-phone{
+	margin-left: 15px;
+}
+.topics {
+	margin-top: 50px;
+	padding-left: 15px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #ccc;
+	padding-top: 10px;
+	height: auto;
+	width: 655px;
+}
+.topics dl {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.topics dt {
+	float: left;
+	width: 13em;
+	height: auto;
+	margin-bottom: 20px;
+	padding-top: 2px;
+	clear: both;
+	padding-left: 40px;
+}
+.topics dd {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #333;
+	margin-bottom: 20px;
+	padding-top: 2px;
+	margin-left: 40px;
+}
+.topics-bottom {
+	margin-bottom: 120px;
+}
+#diary{
+	background-color: #EDF3FE;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#diary-box {
+	height: auto;
+	width: 620px;
+	padding: 10px;
+	border: 1px solid #CCC;
+	background-image: url(http://www.racjin.co.jp/img/pict-index_01.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #FFF;
+}
+#diarybox-left {
+	float: left;
+	height: auto;
+	width: 150px;
+}
+#diarybox-right {
+	float: right;
+	height: auto;
+	width: 450px;
+}
+#diary-box p {
+	line-height: 1.5em;
+}
+
+
+#copy {
+	font-size: 90%;
+	text-align: right;
+	height: auto;
+	width: 950px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}

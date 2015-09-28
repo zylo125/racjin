@@ -1,0 +1,569 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 株式会社ラクジンWebサイト CSS
+--------------------------------------------------------------------------
+
+
+/* ----------------------------------------------------------------------
+初期設定
+------------------------------------------------------------------------- */
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/bg_head.jpg);
+	background-repeat: no-repeat;
+}
+
+
+h1,h2,h3,h4,h5,p,dl,dt,dd,ul,ol,li,form{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.clear {
+	clear: both;
+}
+
+
+#container hr {
+	display: none;
+}
+
+
+.img-brock {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+a:link{
+	color: #666666;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #093389;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #FF0000;
+	text-decoration: none;
+}
+
+
+/* ヘッダ部分
+--------------------------------------------------------------------------*/
+#head-box {
+	background-repeat: repeat-x;
+	height: auto;
+	width: 950px;
+	background-image: url(../img/bg-h1.jpg);
+}
+
+
+h1 {
+	float: left;
+	height: auto;
+	width: 200px;
+	display: block;
+	padding-top: 14px;
+	padding-left: 20px;
+}
+
+.pankuzu {
+	float: right;
+	height: auto;
+	padding-top: 50px;
+	width: 720px;
+	padding-right: 10px;
+}
+
+
+.pankuzu li {
+	padding-right: 15px;
+	padding-left: 15px;
+	float: right;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #666666;
+}
+
+.pan-home {
+	background-image: url(../img/icon-home.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+}
+
+
+
+
+
+/* メインボックス組み
+--------------------------------------------------------------------------*/
+#container {
+	height: auto;
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	font-size: 72%;
+	color: #333333;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #cccccc;
+	border-left-color: #cccccc;
+}
+
+#main-left{
+	float: left;
+	width: 244px;
+	margin-top: 40px;
+	height: auto;
+	padding-left: 6px;
+	margin-bottom: 60px;
+}
+
+
+#main-right{
+	float: right;
+	height: auto;
+	width: 672px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+
+/* 左メニュー
+--------------------------------------------------------------------------*/
+#left-navi{
+	background-image: url(../img/bg-l-navi_01.jpg);
+	background-repeat: repeat-y;
+}
+
+
+#left-navi ul{
+	margin-bottom:20px;
+}
+
+
+#left-navi li{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-image: url(../img/icon-l-navi.gif);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	font-size: 130%;
+	background-position: 5px 2px;
+}
+
+.now{
+	font-weight: bold;
+	color: #0B409C;
+}
+
+
+
+
+/* 中央ナビゲーション
+--------------------------------------------------------------------------*/
+
+#navi li {
+	float: left;
+}
+
+
+#n01 a {
+	text-indent: -9999px;
+	display:block;
+	width:95px;
+	height:60px;
+	text-decoration:none;
+	background-image: url(../img/navi_01.jpg);
+	background-repeat: no-repeat;
+	}
+
+#n01 a:hover {
+	background-image: url(../img/navi_01_o.jpg);
+	background-repeat: no-repeat;
+
+}
+
+#n01_now a{
+	text-indent: -9999px;
+	display:block;
+	width:95px;
+	height:60px;
+	text-decoration:none;
+	background-image: url(../img/navi_01_o.jpg);
+	background-repeat: no-repeat;
+	}
+
+
+
+
+#n02 a {
+	text-indent: -9999px;
+	display:block;
+	width:136px;
+	height:60px;
+	background:url(../img/navi_02.jpg) no-repeat;
+	text-decoration:none;
+	}
+
+#n02 a:hover {
+	background-image: url(../img/navi_02_o.jpg);
+	background-repeat: no-repeat;
+
+}
+
+#n02_now a{
+	text-indent: -9999px;
+	display:block;
+	width:136px;
+	height:60px;
+	background:url(../img/navi_02_o.jpg) no-repeat;
+	text-decoration:none;
+	}
+	
+	
+	
+
+
+
+#n03 a {
+	text-indent: -9999px;
+	display:block;
+	width:145px;
+	height:60px;
+	text-decoration:none;
+	background-image: url(../img/navi_03.jpg);
+	background-repeat: no-repeat;
+	}
+
+#n03 a:hover {
+	background-image: url(../img/navi_03_o.jpg);
+	background-repeat: no-repeat;
+
+}
+
+#n03_now a {
+	text-indent: -9999px;
+	display:block;
+	width:145px;
+	height:60px;
+	text-decoration:none;
+	background-image: url(../img/navi_03_o.jpg);
+	background-repeat: no-repeat;
+
+}
+
+
+
+
+
+#n04 a {
+	text-indent: -9999px;
+	display:block;
+	width:145px;
+	height:60px;
+	background:url(../img/navi_04.jpg) no-repeat;
+	text-decoration:none;
+	}
+
+#n04 a:hover {
+	background-image: url(../img/navi_04_o.jpg);
+	background-repeat: no-repeat;
+
+}
+
+
+#n04_now a{
+	text-indent: -9999px;
+	display:block;
+	width:145px;
+	height:60px;
+	background:url(../img/navi_04_o.jpg) no-repeat;
+	text-decoration:none;
+	}
+	
+	
+	
+
+
+#n05 a {
+	text-indent: -9999px;
+	display:block;
+	width:156px;
+	height:60px;
+	background:url(../img/navi_05.jpg) no-repeat;
+	text-decoration:none;
+	}
+
+#n05 a:hover {
+	background-image: url(../img/navi_05_o.jpg);
+	background-repeat: no-repeat;
+
+}
+
+
+#n05_now a{
+	text-indent: -9999px;
+	display:block;
+	width:156px;
+	height:60px;
+	background:url(../img/navi_05_o.jpg) no-repeat;
+	text-decoration:none;
+	}
+	
+	
+	
+	
+
+#n06 a {
+	text-indent: -9999px;
+	display:block;
+	width:145px;
+	height:60px;
+	background:url(../img/navi_06.jpg) no-repeat;
+	text-decoration:none;
+	}
+
+#n06 a:hover {
+	background-image: url(../img/navi_06_o.jpg);
+	background-repeat: no-repeat;
+
+}
+
+
+#n06_now a{
+	text-indent: -9999px;
+	display:block;
+	width:145px;
+	height:60px;
+	background:url(../img/navi_06_o.jpg) no-repeat;
+	text-decoration:none;
+	}
+
+
+
+
+#n07 a {
+	text-indent: -9999px;
+	display:block;
+	width:128px;
+	height:60px;
+	background:url(../img/navi_07.jpg) no-repeat;
+	text-decoration:none;
+	}
+
+#n07 a:hover {
+	background-image: url(../img/navi_07_o.jpg);
+	background-repeat: no-repeat;
+
+}
+
+#n07_now a{
+	text-indent: -9999px;
+	display:block;
+	width:128px;
+	height:60px;
+	background:url(../img/navi_07_o.jpg) no-repeat;
+	text-decoration:none;
+	}
+	
+	
+
+
+
+/* フッタ
+--------------------------------------------------------------------------*/
+#foot {
+	background-image: url(../img/bg_foot.jpg);
+	background-repeat: repeat-x;
+	height: auto;
+	width: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-bottom: 20px;
+	background-position: 0px 0px;
+}
+#copy {
+	font-size: 90%;
+	text-align: right;
+	height: auto;
+	width: 950px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+/* 共通設定
+--------------------------------------------------------------------------*/
+
+
+h3{
+	margin-bottom:15px;
+}
+
+h4{
+	background-image: url(../img/icon-h4.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-left: 20px;
+	font-size: 140%;
+	margin-bottom: 10px;
+}
+
+h5{
+	background-image: url(../img/icon-h5.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-left: 20px;
+	font-size: 110%;
+	margin-bottom: 10px;
+}
+
+
+
+.text-center{
+	text-align: center;
+}
+.text-small {
+	font-size: 75%;
+}
+.text-right {
+	text-align: right;
+}
+
+.text-red {
+	color: #CE0A0A;
+}
+.icon-sankaku {
+	background-image: url(../img/icon-l-navi.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 15px;
+	margin-left: 10px;
+}
+
+
+.icon-pdf {
+	background-image: url(../img/pdficon_small.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin-left: 150px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.icon-pdf-big_center {
+	background-image: url(../img/pdfico.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 40px;
+	margin-left: 200px;
+}
+
+
+
+
+
+.normal-list li{
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+
+.number-list li{
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+
+.icon-list li{
+	background-image: url(../img/icon-dot.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	padding-top: 1px;
+}
+
+
+
+
+
+/* マージン
+--------------------------------------------------------------------------*/
+
+.MT-5px {
+	margin-top: 5px;
+}
+
+.MT-10px {
+	margin-top: 10px;
+}
+
+.MT-15px {
+	margin-top: 15px;
+}
+
+
+
+.MT-50px {
+	margin-top: 50px;
+}
+
+
+.MT-100px {
+	margin-top: 100px;
+}
+
+
+.ML-5px {
+	margin-left: 5px;
+}
+
+
+.ML-10px {
+	margin-left: 10px;
+}
+
+.ML-30px {
+	margin-left: 30px;
+}
+
+
+.MR-10px {
+	margin-right: 10px;
+}
+
+.ML-50px {
+	margin-top: 50px;
+}
+
+.MB-10 {
+	margin-bottom: 10px;
+}
+.MB-50px {
+	margin-bottom: 50px;
+}
+.MB-100 {
+	margin-bottom: 100px;
+}
+#copy {
+}
